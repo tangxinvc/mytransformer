@@ -4,6 +4,8 @@ from typing import Optional
 import torch
 from torch import nn as nn
 
+# This is my practice for multi head attention
+
 class PrepareForMultiHeadAttention(nn.Module):
     def __init__(self, d_model: int, heads: int, d_k: int, bias: bool):
         super().__init__()
